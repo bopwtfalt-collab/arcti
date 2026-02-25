@@ -15,8 +15,11 @@ const Contact = () => {
         </p>
 
         <div className="grid sm:grid-cols-2 gap-6 mb-12">
+          {/* Discord Card */}
           <a
-            href="#"
+            href="https://discord.com/users/377091124092731395"
+            target="_blank"
+            rel="noopener noreferrer"
             className="frost-glass rounded-xl p-8 glow-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex flex-col items-center gap-4"
           >
             <MessageSquare className="w-10 h-10 text-primary" />
@@ -28,6 +31,7 @@ const Contact = () => {
             </div>
           </a>
 
+          {/* Twitter/X Card */}
           <a
             href="https://x.com/arctii3?s=21"
             target="_blank"
@@ -39,9 +43,7 @@ const Contact = () => {
               <p className="font-heading text-xl font-bold text-foreground">
                 Twitter / X
               </p>
-              <p className="text-muted-foreground text-sm">
-                DMs open
-              </p>
+              <p className="text-muted-foreground text-sm">DMs open</p>
             </div>
           </a>
         </div>
