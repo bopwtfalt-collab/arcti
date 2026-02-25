@@ -19,9 +19,8 @@ const Hero = () => {
           Competitive Fortnite Coaching
         </p>
         <h1 className="font-heading text-6xl md:text-8xl font-bold leading-tight mb-6 glow-text text-foreground">COACH
-THE STORM
           <br />
-          <span className="text-primary">THE STORM</span>
+          <span className="text-primary">ARCTI</span>
         </h1>
         <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 font-body">
           Elite coaching from a top-tier, community-vouched Fortnite competitor.
