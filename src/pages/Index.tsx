@@ -20,7 +20,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-border/50 text-center">
         <p className="text-muted-foreground text-sm font-body">
-          © 2025 FrostCoach. All rights reserved.
+          © 2025 Coach Arcti. All rights reserved.
         </p>
       </footer>
     </div>
