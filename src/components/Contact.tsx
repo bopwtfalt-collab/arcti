@@ -1,4 +1,4 @@
-import { MessageSquare, Mail } from "lucide-react";
+import { MessageSquare, Twitter } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -29,16 +29,18 @@ const Contact = () => {
           </a>
 
           <a
-            href="#"
+            href="https://x.com/arctii3?s=21"
+            target="_blank"
+            rel="noopener noreferrer"
             className="frost-glass rounded-xl p-8 glow-border hover:border-primary/40 transition-all duration-300 hover:scale-105 flex flex-col items-center gap-4"
           >
-            <Mail className="w-10 h-10 text-primary" />
+            <Twitter className="w-10 h-10 text-primary" />
             <div>
               <p className="font-heading text-xl font-bold text-foreground">
-                Email
+                Twitter / X
               </p>
               <p className="text-muted-foreground text-sm">
-                For detailed inquiries
+                DMs open
               </p>
             </div>
           </a>

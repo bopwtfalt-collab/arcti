@@ -3,39 +3,51 @@ import { Crosshair, Gamepad2, Shield } from "lucide-react";
 const services = [
   {
     icon: Crosshair,
-    title: "1-on-1 Coaching",
-    price: "$30",
+    title: "VOD Review",
+    price: "$5",
     per: "/ session",
     features: [
-      "VOD review & analysis",
-      "Mechanics training",
-      "Personalized game plan",
-      "Discord follow-up support",
+      "1-hour VOD review",
+      "Gameplay breakdown",
+      "Key mistakes identified",
+      "Improvement priorities",
+    ],
+  },
+  {
+    icon: Crosshair,
+    title: "VOD Review + Notes",
+    price: "$7",
+    per: "/ session",
+    features: [
+      "1-hour VOD review",
+      "Written notes & takeaways",
+      "Timestamped feedback",
+      "Action plan summary",
     ],
   },
   {
     icon: Gamepad2,
-    title: "Duo / Trio Package",
-    price: "$50",
+    title: "Live Tournament Coaching",
+    price: "$12",
     per: "/ session",
     features: [
-      "Team synergy analysis",
-      "Rotation & callout training",
-      "Endgame positioning",
-      "Custom scrims setup",
+      "Real-time in-game callouts",
+      "Live decision coaching",
+      "Endgame positioning help",
+      "Post-match debrief",
     ],
     featured: true,
   },
   {
     icon: Shield,
-    title: "Monthly Mentorship",
-    price: "$99",
-    per: "/ month",
+    title: "Seasonal Coaching",
+    price: "$20",
+    per: "/ season",
     features: [
-      "4 coaching sessions",
-      "Weekly VOD reviews",
-      "Priority Discord access",
-      "Tournament prep strategy",
+      "Full season mentorship",
+      "Ongoing VOD reviews",
+      "Priority support",
+      "Spots extremely limited",
     ],
   },
 ];
@@ -53,7 +65,7 @@ const Services = () => {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service) => (
             <div
               key={service.title}
