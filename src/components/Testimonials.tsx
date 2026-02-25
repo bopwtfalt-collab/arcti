@@ -17,7 +17,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "BlizzardFN",
+    name: "Stumping & Sharp",
     text: "Our duo went from 0 earnings to consistent placements. The team coaching package is insane value.",
     rating: 5,
   },
