@@ -7,8 +7,8 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "GlacierGG",
-    text: "Best coaching I've had. Incredibly patient, explains everything clearly, and the VOD reviews are next level.",
+    name: "Gud",
+    text: "Puts in great effort and has an amazingly sharp analytical skill. Highly recommend.",
     rating: 5,
   },
   {
