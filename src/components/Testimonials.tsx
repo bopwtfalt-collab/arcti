@@ -2,8 +2,8 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "FrostByte",
-    text: "Went from Division 6 to Champion League in 2 weeks. The endgame strats alone were worth it.",
+    name: "Shayan",
+    text: "He puts in a lot of effort, staying up late for his clients. Built an amazing community of like-minded Fortnite players who want to improve and break their limits.",
     rating: 5,
   },
   {
