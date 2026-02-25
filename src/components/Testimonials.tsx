@@ -12,7 +12,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "ArcticAim",
+    name: "Money",
     text: "My box fighting improved massively after just one session. Highly recommend the monthly mentorship.",
     rating: 5,
   },
